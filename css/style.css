@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'Zono';
+  src: url('./assets/font/ZonaPro-ExtraLight.otf') format('truetype');
+}
+@font-face {
+  font-family: 'ZonoPro';
+  src: url('./assets/font/ZonaPro-Bold.otf') format('truetype');
+}
+* {
+  box-sizing: border-box;
+  font-family: "Zono", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  pointer-events: none;
+  max-width: 100%;
+  height: auto;
+}
+header{
+  padding-left: 6.5rem;
+  border: 1px solid #ccc;
+  background-color: #F2F4F6;
+}
+#sidebar{
+  background-color: rgb(29, 29, 29);
+    width: 6rem;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-style: hidden;
+    z-index: 100;
+    padding-top: 5px;
+}
+#sidebar a {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    position: relative;
+}
+#sidebar a span{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#title h1{
+  font-size: 2rem;
+  font-family: 'ZonoPro', sans-serif;
+}
+#title p{
+  font-size: 1rem;
+  font-family: 'ZonoPro', sans-serif;
+}
+#profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 2rem;
+}
+#profileImg{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+#content{
+  margin-left: 6rem;
+  background-color: #F2F4F6;
+}
+#upperbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #F2F4F6;
+  border-bottom: 1px solid #ccc;
+}
+#upperbar nav a{
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #868686;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+}
+#icon{
+  margin-bottom: 2rem;
+}
+#logout{
+  margin-top: 15rem;
+}
+#logo{
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+#sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1D1D1D;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  width: 56rem;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+  border-color: white;
+}
+.imgClass {
+  position: relative;
+  width: 20.5rem;
+  height: 13rem;
+  font-family: 'ZonoPro', sans-serif;
+}
+.img {
+  position: absolute;
+  width: 8.5rem;
+  top: 2.5rem;
+  left: 6.25rem;
+  z-index: 100;
+}
+.background{
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  z-index: 50;
+  border-radius:15px ;
+}
+.price{
+  position: absolute;
+  z-index: 100;
+  padding: 5px 15px;
+  font-size: .95rem;
+  font-weight: 800;
+  background-color: rgba(255, 255, 255, 0.344);
+  border-radius: 5px;
+  top: .55rem;
+  left: .55rem;
+  margin: 0;
+  color: white;
+}
+.date{
+  position: absolute;
+  background-color: white;
+  border-radius: 25px;
+  z-index: 100;
+  top: 9.75rem;
+  left: .625rem;
+  padding: 4px 13px;
+  font-size: .6rem;
+  font-weight: 790;
+}
+.desc{
+  font-family: 'Zono', sans-serif;
+  color: #505050;
+  font-size: .98rem;
+}
+.definitionDiv{
+  margin-left: 2.3rem;
+  width: 31rem;
+}
+.headingDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading{
+  margin-top: .5rem;
+  margin-bottom: .8rem;
+  font-size: 1.5rem;
+}
+.ratingGroup{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rating{
+  margin-top: .6rem;
+  margin-bottom: .6rem;
+  font-size: 1rem;
+}
+.buttonDiv{
+  margin-top: 2rem;
+  position: relative;
+}
+.button1,.button2{
+  font-size: .9rem;
+  font-weight: 600;
+  padding: .8rem;
+  background-color: white;
+  margin-left: 1rem;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.button3{
+  position: absolute;
+  background-color: #2D61DE;
+  border-radius: 25px;
+  border: 1px solid #2D61DE;
+  right: 0;
+}
+#content{
+  display: flex;
+  flex-direction: row;
+}
+#rightContent{
+  border: 1px solid #ccc;
+  width: 100%;
+  padding-left: 1.5rem;
+}
+#date{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+#month{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#month h6{
+  font-size: .8rem;
+  color: #2D61DE;
+  padding-right: 1.8rem;
+}
+#dates{
+  width: 20rem;
+  border: 1px solid #fff;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-left: 4rem;
+  font-size: .8rem;
+  font-weight: 600;
+}

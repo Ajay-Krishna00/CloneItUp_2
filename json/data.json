@@ -1,0 +1,36 @@
+[
+  {
+    "name": "HTML for beginners",
+    "imgSrc": "./images/html.png",
+    "backgroundSrc":"./images/HTML1.png",
+    "description": "Learning HTML for developing modern interactive web applications.",
+    "priceDef":"₹16000",
+    "dateDef":"14 JUL-17 AUG",
+    "ratingDef":"4.5",
+    "button1Def":"HTML",
+    "button2Def":"Web"
+  },
+  {
+    "name": "CSS for mobile",
+    "imgSrc": "./images/css.png",
+    "backgroundSrc":"./images/CSS1.png",
+    "description": "You'll learn about CSS, layouts, wrappers, creating a sticky navbar, and more.",
+    "priceDef":"₹12000",
+    "dateDef":"10 AUG-31 AUG",
+    "ratingDef":"4.3",
+    "button1Def":"Engineering",
+    "button2Def":"Testing"
+  },
+  {
+    "name": "JavaScript",
+    "imgSrc": "./images/javascript.png",
+    "backgroundSrc":"./images/JS.png",
+    "description": "This course provides a comprehensive introduction to the JavaScript programming language.",
+    "priceDef":"₹17000",
+    "dateDef":"17 SEPT-22 SEPT",
+    "ratingDef":"4.7",
+    "button1Def":"JavaScript",
+    "button2Def":"Development"
+  }
+  
+]
